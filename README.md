@@ -17,6 +17,7 @@
  Each section title should be an h1 element 
  
  Each item in sections should be a p element.
+ 
 8. Each section should have its own background color
 9. Each section should have its own color
 10. Stage your file 
