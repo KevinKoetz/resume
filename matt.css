@@ -1,0 +1,30 @@
+
+
+h1 {
+    color: firebrick;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+#sone {
+    color: black;
+    background-color: red;
+    text-align: center;
+}
+#stwo {
+    color: turquoise;
+    background-color:green;
+    text-align: center;
+}
+ 
+#sthree {
+    
+    color: grey;
+    background-color: palegreen;
+    text-align: center;
+    }
+#sfour { 
+    color: yellowgreen;
+    background-color: tomato;
+    text-align: center;
+    }   
