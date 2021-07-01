@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 50px;
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.personal {
+    background-color: grey;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.work {
+    background-color: rgb(125, 216, 216);
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+.education {
+    background-color: cornflowerblue;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+.hobbies {
+    background-color: rgb(216, 161, 142);
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+h1 {
+    color: black;
