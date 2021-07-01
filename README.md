@@ -5,7 +5,7 @@
 1. Clone this repo
 2. Add a new branch and use your name as the branch name
 3. create an html and name exactly as your name e.g. alkis.html
-4. Style everything in an external file
+4. Style everything in an external file. Important: name your stylesheet file as yourname.css e.g. alkis.css
 5. Add a meaningful title and a meta description
 6. Add a favicon (ideally a valid one)
 7. Add the following sections:          
