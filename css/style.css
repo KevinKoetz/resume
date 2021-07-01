@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+@keyframes scaleanim {
+    0% {transform: scale(1.0);}
+    100% {transform: scale(1.5);}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 1em;
+    text-shadow: 0px 2px 1rem rgb(248, 66, 42);
+    box-shadow: inset 0px 2px 1rem rgb(171, 219, 247);
+    color:rgb(177, 40, 40);
+    animation: scaleanim 1.5s alternate infinite ease-in;
+}
+h2{
+    font-size: 2em;
+    margin: 1em;
+    
+}
+
+main p{
+    margin: 0 0 2em 4em;
+    font-size: 1.4em;
+}
+main section{
+    padding: 2em;
+}
+
+section:first-child(){
+    background: linear-gradient(#fff,#ddd);
+
+}
+section.personal:hover{
+    background-color: blue;
+    color: yellow;
+
+}
+section.experience:hover{
+    background-color: red;
+    color: green
+}
+section.education:hover{
+    background: brown;
+    color: white;
+
+}
+section.hobby:hover{
+background: darkorchid;
+color:rgb(2, 245, 2);
+}
