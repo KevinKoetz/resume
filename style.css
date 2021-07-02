@@ -1,8 +1,8 @@
 @media screen {
-  html {
+  body {
     background-color: rgb(200, 200, 200);
   }
-  body {
+  .page {
     margin: 0 auto;
     margin-top: 10px;
     box-shadow: 10px 10px 10px 0px black;
@@ -10,22 +10,19 @@
 }
 
 @media print {
-  body {
+  .page {
     margin: 0 auto;
   }
 }
 
-body {
+.page {
   background-color: white;
   width: 21cm;
   height: 29.7cm;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
 
-body > * {
+.page > * {
   padding-left: 1cm;
   padding-right: 1cm;
 }
