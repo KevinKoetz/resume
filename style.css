@@ -16,6 +16,10 @@ h2 {
     white-space: nowrap;
 }
 
+h3, h4 {
+  color: #f0594d;
+}
+
 header {
     padding: 0px 0px 0px 0px;
   color: #fff;
@@ -36,13 +40,14 @@ header {
 }
 
 #face img {
-  width: 100px;
+  width: 120px;
   border: solid 5px #f0594d;
   border-radius: 50%;
 }
 
 main {
     display:grid;
+    grid-template-columns: 50% 50%;
 }
 
 #workExperience {
@@ -51,4 +56,9 @@ main {
 
 #education {
     grid-column: 2;
+}
+
+ol {
+  padding: 0;
+  list-style-type: none;
 }
