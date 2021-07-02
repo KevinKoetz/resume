@@ -1,19 +1,54 @@
-#personalData {
-  background-color: aqua;
-  color: darkgreen;
+body {
+  width: 21cm;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
 }
 
-#workingExperience {
-  background-color: brown;
-  color: darkgrey;
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #f0594d;
+    border: solid 2px #f0594d;
+    padding: 5px;
+    max-width: min-content;
+    white-space: nowrap;
+}
+
+header {
+    padding: 0px 0px 0px 0px;
+  color: #fff;
+  background-color: #454f60;
+}
+
+#contactData {
+  background-color: #3c424c;
+}
+
+#face {
+  float: right;
+}
+
+#title {
+    color: #f0594d;
+    margin: 0;
+}
+
+#face img {
+  width: 100px;
+  border: solid 5px #f0594d;
+  border-radius: 50%;
+}
+
+main {
+    display:grid;
+}
+
+#workExperience {
+    grid-column: 1;
 }
 
 #education {
-  background-color: cornflowerblue;
-  color: darkmagenta;
-}
-
-#hobbies {
-  background-color: darkgreen;
-  color: darkorange;
+    grid-column: 2;
 }
