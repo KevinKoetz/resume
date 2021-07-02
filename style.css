@@ -20,6 +20,9 @@
   width: 21cm;
   height: 29.7cm;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .page > * {
@@ -129,7 +132,7 @@ main {
   flex-direction:column;
   flex-wrap: wrap;
   padding-bottom: 0.5cm;
-  height: 24cm;
+  height: inherit !important
 }
 
 ol {
