@@ -15,14 +15,21 @@
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .page {
   background-color: white;
   width: 21cm;
   height: 29.7cm;
   font-family: "Montserrat", sans-serif;
-  display: flex;
+  display: grid;
+  grid-template-rows: 4.5cm 1cm Calc(29.7cm - 4.5cm - 1cm);
   flex-direction: column;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .page > * {
@@ -132,7 +139,6 @@ main {
   flex-direction:column;
   flex-wrap: wrap;
   padding-bottom: 0.5cm;
-  height: inherit !important
 }
 
 ol {
