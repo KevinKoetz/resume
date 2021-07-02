@@ -26,10 +26,8 @@ body {
   width: 21cm;
   height: 29.7cm;
   font-family: "Montserrat", sans-serif;
-  display: grid;
-  grid-template-rows: 4.5cm 1cm Calc(29.7cm - 4.5cm - 1cm);
+  display: flex;
   flex-direction: column;
-  overflow:hidden;
 }
 
 .page > * {
@@ -138,6 +136,7 @@ main {
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
+  overflow:hidden;
   padding-bottom: 0.5cm;
 }
 
