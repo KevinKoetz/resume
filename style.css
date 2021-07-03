@@ -137,8 +137,6 @@ main .tasks {
   font-size: small;
 }
 
-
-
 .tasks > li {
   list-style: disc;
   list-style-position: inside;
@@ -157,7 +155,26 @@ main .school {
   font-weight: normal;
 }
 
+.skill {
+  text-align: right;
+}
 
+.proficency {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.dot {
+  background-color: #F9B8A3;
+  width: 1em;
+  height: 1em;
+  margin:0 0.5em;
+  border-radius: 50%;
+}
+
+.dot.filled {
+  background-color: #f0594d;
+}
 
 
 
