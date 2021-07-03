@@ -139,7 +139,8 @@ main .tasks {
 
 .tasks > li {
   list-style: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1em;
 }
 
 .tasks > li::marker {
