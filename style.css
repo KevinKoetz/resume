@@ -65,6 +65,7 @@ header #intro {
 
 #contactData * {
   vertical-align: middle;
+  margin: 0.1em 0;
 }
 
 #contactData .material-icons {
