@@ -61,11 +61,14 @@ header #intro {
   background-color: #3c424c;
   display: flex;
   justify-content: space-between;
-  text-align: center;
 }
 
-#email {
-  text-align: center;
+#contactData * {
+  vertical-align: middle;
+}
+
+#contactData .material-icons {
+  margin-right: 0.1em;
 }
 
 main {
