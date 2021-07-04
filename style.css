@@ -1,3 +1,8 @@
+:root {
+  --standard-fontsize: small;
+  --emphasis-color: #f0594d;
+}
+
 @media screen {
   body {
     background-color: rgb(200, 200, 200);
@@ -27,7 +32,7 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: small;
+  font-size: var(--standard-fontsize);
 }
 
 .page > * {
@@ -47,7 +52,7 @@ header h1 {
 }
 
 header #title {
-  color: #f0594d;
+  color: var(--emphasis-color);
   margin: 0;
   font-weight: bold;
 }
@@ -60,7 +65,7 @@ header #face {
 header #face img {
   width: 100px;
   height: 100px;
-  border: solid 5px #f0594d;
+  border: solid 5px var(--emphasis-color);
   border-radius: 50%;
 }
 
@@ -68,27 +73,27 @@ header #intro {
   margin: 10px 0px;
 }
 
-#contactData {
+section#contactData {
   color: #fff;
   background-color: #3c424c;
   display: flex;
   justify-content: space-between;
 }
 
-#contactData * {
+section#contactData * {
   vertical-align: middle;
   margin: 0.1em 0;
 }
 
-#contactData .material-icons {
+section#contactData .material-icons {
   margin-right: 0.1em;
 }
 
 main {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   flex-wrap: wrap;
-  overflow:hidden;
+  overflow: hidden;
   padding-bottom: 0.5cm;
 }
 
@@ -97,21 +102,22 @@ main > * {
 }
 
 main h2 {
-  color: #f0594d;
-  border: solid 2px #f0594d;
+  color: var(--emphasis-color);
+  border: solid 2px var(--emphasis-color);
   padding: 5px;
   max-width: min-content;
   white-space: nowrap;
 }
 
 main h3 {
-  color: #f0594d;
+  color: var(--emphasis-color);
   margin-bottom: 0;
 }
 
-main h4 {
-  color: #f0594d;
-  margin: 5px 0px 0px 0px;
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 main ol {
@@ -119,76 +125,104 @@ main ol {
   list-style-type: none;
 }
 
-main .timespan {
-  font-size:small;
+main #workExperience .tasks li{
+  margin-right: 1em;
 }
 
-main .position {
+main #workExperience h4 {
+  color: var(--emphasis-color);
+  margin: 5px 0px 0px 0px;
+}
+
+main #workExperience .timespan {
+  font-size: var(--standard-fontsize);
+}
+
+main #workExperience .position {
   color: black;
 }
 
-main .company {
+main #workExperience .company {
   color: black;
   font-weight: normal;
 }
 
-main .tasks {
+main #workExperience .tasks {
   padding: 0;
-  font-size: small;
+  font-size: var(--standard-fontsize);
 }
 
-.tasks > li {
+main #workExperience .tasks > li {
   list-style: disc;
   list-style-position: outside;
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 
-.tasks > li::marker {
-  color: #f0594d;
+main #workExperience .tasks > li::marker {
+  color: var(--emphasis-color);
 }
 
-main .degree {
+main #education .degree {
   color: black;
 }
 
-main .school {
+main #education .school {
   color: black;
   font-weight: normal;
 }
 
-.skill {
+main #skills .skill {
   text-align: right;
 }
 
-.proficency {
+main #skills .proficency {
   display: grid;
   grid-auto-flow: column;
 }
 
-.dot {
-  background-color: #F9B8A3;
+main #skills .proficency .dot {
+  background-color: #f9b8a3;
   width: 1em;
   height: 1em;
-  margin:0 0.5em;
+  margin: 0 0.5em;
   border-radius: 50%;
 }
 
-.dot.filled {
-  background-color: #f0594d;
+main #skills .proficency .dot.filled {
+  background-color: var(--emphasis-color);
 }
 
+main #certificates li.certificate {
+  margin-bottom: 1em;
+}
 
+main #certificates .certificateName {
+  color: black;
+  font-size: var(--standard-fontsize);
+}
 
+main #certificates .certificateDescription {
+  margin: 0;
+}
 
+main #organisations .organisationName {
+  color: black;
+  font-size: var(--standard-fontsize);
+}
 
+main #organisations .organisationDescription {
+  margin: 0;
+}
 
+main #interests ul {
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
-
-
-
-
-
-
-
-
+main #interests ul li:not(:last-child) {
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+  border-right: 1px solid black;
+}
